@@ -1,0 +1,29 @@
+git config --global user.name "name"  
+git config --global user.email "email@female.com"  
+
+
+git config --global core.editor "code --wait"  
+git config --global core.autocrlf
+git config --global -e <for edititing the settings>
+
+
+git installation  
+
+stages:  
+U - untracked  
+A - added or staged  
+C - Committed  
+
+commands you need to know -  
+git status -s => to know current status of unstaged and staged files  
+git log --oneline => to know current status of saved points  
+
+managing your own projects  
+making git available in our project  
+making a checkpoint or saved point  
+    adding files  
+    staging them  
+    committing them  
+going back to some previous saved point  
+logging everything  
+reverting back to the previous saved point
