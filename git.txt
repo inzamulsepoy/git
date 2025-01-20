@@ -27,3 +27,60 @@ making a checkpoint or saved point
 going back to some previous saved point  
 logging everything  
 reverting back to the previous saved point
+
+git reset -hard HEAD~1  <for going backward>
+
+git log --oneline --graph
+
+git branch feature/navbar 
+
+git branch 
+
+gut switch feature/navbar
+
+git switch main  
+
+git merge feature/navbar
+
+git log --oneline --graph
+
+ff mrege, three way merge
+
+to delete a branch
+git branch -d feature/navbar
+
+git switch -C feature/add-footer
+
+git stash (not added and kept in the memory)
+
+git stash appy (to see the cahnges and keep it back to the editor)
+
+git stash clear (to delete the changes kept in the memory, if not needed)
+
+________________________________________________________________________________________
+#create a new repository
+
+echo "# testingtest" >> README.md  
+git init  
+git add README.md  
+git commit -m "first commit"  
+git branch -M main  
+git remote add origin https://github.com/user-name/repo-name.git
+git push -u origin main
+
+___________________________________________________________________________________________
+#or push an exisiting repository
+
+git remote add origin https://github.com/asynchronousJavascript/testingtest.git  
+git branch -M main  
+git push -u origin main
+
+__________________________________________________________________________________________________
+
+git fetch (to fetch the oher branch)
+
+git switch <branch-name>
+
+git merge <is everything okay>
+
+git push origin main
